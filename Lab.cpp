@@ -15,4 +15,4 @@ void loop()
 }
 
 void HoldAll() { Serial.println("HoldAll");  }
-void Playgame()  { Serial.println("Playgame"); }
+void PlayGame()  { Serial.println("Playgame"); }
