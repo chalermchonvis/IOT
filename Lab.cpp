@@ -12,6 +12,8 @@ void loop()
       String inpKey = Serial.readStringUntil('\n');
       Serial.print(" Press Switch  ");   
      Serial.println(inpKey);
+     if ( inpKey.substring(0,1) == "h") {  HoldAll();  }
+     if ( inpKey.substring(0,1) == "p") {  PlayGame();  }
      }
 }
 
